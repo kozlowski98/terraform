@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "TerraformLearning",
+        "Effect": "Allow",
+        "Action": [
+          "ec2:*",
+          "s3:*",
+          "dynamodb:*",
+          "iam:PassRole",
+          "iam:GetRole",
+          "iam:ListRoles"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  

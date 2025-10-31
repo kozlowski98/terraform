@@ -1,0 +1,11 @@
+# Terraform files to ignore
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+*.tfvars
+
+# OS / editors
+.vscode/
+.idea/
+.DS_Store
